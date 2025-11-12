@@ -6,22 +6,33 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { ExternalLink, Github, Eye } from 'lucide-react';
 
-// Mock data - will be replaced with Supabase data
+
 const portfolioItems = [
   {
     id: 1,
-    title: "Video Editing Samples",
+    title: "Video Editing",
     description: "Interactive 3D product customization platform with real-time rendering",
     image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&h=400&fit=crop",
-    category: "3D Development",
+    category: "Video Editing",
     technologies: ["Premiere Pro", "After Effects", "Motion Graphics"],
     liveUrl: "https://drive.google.com/drive/folders/1_Ec6ZAokqVM7s52MN8_b8r9HV4r2bVlT?usp=drive_link",
     githubUrl: "https://github.com",
     fullDescription: "Crafted engaging visual stories through seamless transitions, dynamic pacing, and color grading to enhance emotion and impact. Combined motion graphics, sound design, and storytelling techniques to create professional-quality videos for brands and creators."
   },
+  {
+    id: 1,
+    title: "UI/UX Design",
+    description: "Crafting sleek, intuitive interfaces that turn ideas into seamless user experiences.",
+    image: "https://image2url.com/images/1762946806523-e561adf5-6fa2-4120-af6b-fff2b1044bd9.avif",
+    category: "UI/UX Design",
+    technologies: ["Figma", "Adobe", "Canva"],
+    liveUrl: "https://anubhav-fps.netlify.app/",
+    githubUrl: "https://github.com/Anubhav2qrz",
+    fullDescription: "I specialize in creating modern, responsive websites that blend clean design with seamless user experience. As a UI/UX designer and web creator, I focus on crafting visually appealing interfaces that are intuitive, engaging, and built with purpose. My work combines aesthetics with functionality — ensuring every website not only looks great but also delivers a smooth, meaningful experience for users across all devices."
+  },
 ];
 
-const categories = ["All", "Video Editing", "Thumbnail", "Social Media Management", "Photo Editing"];
+const categories = ["All", "Video Editing", "Thumbnail", "Social Media Management", "UI/UX Design"];
 
 export function PortfolioSection() {
   const [selectedCategory, setSelectedCategory] = useState("All");

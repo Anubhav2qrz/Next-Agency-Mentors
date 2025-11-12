@@ -81,14 +81,6 @@ export function Navigation({ onSectionChange }: NavigationProps) {
                 )}
               </motion.button>
             ))}
-            
-            <Button 
-              variant="outline" 
-              className="border-neon-glow hover:bg-primary/10"
-              onClick={() => window.open('/admin', '_blank')}
-            >
-              Admin
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -125,17 +117,6 @@ export function Navigation({ onSectionChange }: NavigationProps) {
                   {item.label}
                 </motion.button>
               ))}
-              
-              <Button 
-                variant="outline" 
-                className="border-neon-glow hover:bg-primary/10 mt-4"
-                onClick={() => {
-                  setIsOpen(false);
-                  window.open('/admin', '_blank');
-                }}
-              >
-                Admin Portal
-              </Button>
             </div>
           </motion.div>
         )}

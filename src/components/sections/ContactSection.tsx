@@ -73,8 +73,8 @@ export function ContactSection() {
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+91 9763790404",
-      link: "tel:+91 9763790404"
+      value: "Coming Soon",
+      link: "tel:Coming Soon"
     },
     {
       icon: <MapPin className="w-5 h-5" />,

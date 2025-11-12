@@ -71,7 +71,7 @@ export function HeroSection({ onViewWork }: HeroSectionProps) {
           className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
         >
           <span className="gradient-text animate-glow">
-            NexAgency_Mentors
+            Nex Agency
           </span>
         </motion.h1>
 

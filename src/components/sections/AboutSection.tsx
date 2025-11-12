@@ -34,7 +34,7 @@ const experiences = [
   {
     year: "2023 - Present",
     title: "Lead Video Editor & Designer",
-    company: "NexAgency_Mentors",
+    company: "Nex Agency",
     description: "Creating high-converting thumbnails and professional video edits for top YouTubers and content creators."
   },
   {
